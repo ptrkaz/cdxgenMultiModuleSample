@@ -1,0 +1,3477 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:02355c37-2d17-40a0-b56e-a68cfeba7a96",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-08-11T06:43:06.487Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.3.2",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.3.2",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.3.2"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ],
+    "component": {
+      "name": "CdxgenAndroidTest",
+      "type": "application",
+      "group": "",
+      "version": "latest",
+      "properties": [
+        {
+          "name": "buildFile",
+          "value": "/Users/piotr/src/CdxgenAndroidTest/build.gradle.kts"
+        },
+        {
+          "name": "projectDir",
+          "value": "/Users/piotr/src/CdxgenAndroidTest"
+        },
+        {
+          "name": "rootDir",
+          "value": "/Users/piotr/src/CdxgenAndroidTest"
+        }
+      ],
+      "purl": "pkg:maven/CdxgenAndroidTest@latest?type=jar",
+      "bom-ref": "pkg:maven/CdxgenAndroidTest@latest?type=jar",
+      "components": [
+        {
+          "name": "data",
+          "type": "application",
+          "group": "CdxgenAndroidTest",
+          "version": "latest",
+          "properties": [
+            {
+              "name": "buildFile",
+              "value": "/Users/piotr/src/CdxgenAndroidTest/data/build.gradle.kts"
+            },
+            {
+              "name": "projectDir",
+              "value": "/Users/piotr/src/CdxgenAndroidTest/data"
+            },
+            {
+              "name": "rootDir",
+              "value": "/Users/piotr/src/CdxgenAndroidTest"
+            }
+          ],
+          "purl": "pkg:maven/CdxgenAndroidTest/data@latest?type=jar",
+          "bom-ref": "pkg:maven/CdxgenAndroidTest/data@latest?type=jar"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.test.ext",
+      "name": "junit",
+      "version": "1.1.5",
+      "description": "The AndroidX Test Library provides an extensive framework for testing Android apps",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.test.ext/junit@1.1.5?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.test.ext/junit@1.1.5?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.test.espresso",
+      "name": "espresso-core",
+      "version": "3.5.1",
+      "description": "The AndroidX Test Library provides an extensive framework for testing Android apps",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.test.espresso/espresso-core@3.5.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.test.espresso/espresso-core@3.5.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "JUnit",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2",
+      "description": "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-1.0",
+            "url": "https://opensource.org/licenses/EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/junit/junit@4.13.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/junit-team/junit4"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/junit/junit@4.13.2?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3",
+      "description": "\r\n    This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.\r\n  ",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.test",
+      "name": "core",
+      "version": "1.5.0",
+      "description": "The AndroidX Test Library provides an extensive framework for testing Android apps",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.test/core@1.5.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.test/core@1.5.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.annotation",
+      "name": "annotation",
+      "version": "1.2.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.test",
+      "name": "monitor",
+      "version": "1.6.1",
+      "description": "The AndroidX Test Library provides an extensive framework for testing Android apps",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.test/monitor@1.6.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.test/monitor@1.6.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.test",
+      "name": "annotation",
+      "version": "1.0.1",
+      "description": "The AndroidX Test Library provides an extensive framework for testing Android apps",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.test/annotation@1.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.test/annotation@1.0.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.annotation",
+      "name": "annotation-experimental",
+      "version": "1.1.0",
+      "description": "Java annotation for use on unstable Android API surfaces. When used in conjunction with the Experimental annotation lint checks, this annotation provides functional parity with Kotlin's Experimental annotation.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.annotation/annotation-experimental@1.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation-experimental@1.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.tracing",
+      "name": "tracing",
+      "version": "1.0.0",
+      "description": "Android Tracing",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.tracing/tracing@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.tracing/tracing@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.test.services",
+      "name": "storage",
+      "version": "1.4.2",
+      "description": "The AndroidX Test Library provides an extensive framework for testing Android apps",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.test.services/storage@1.4.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.test.services/storage@1.4.2?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "2.0.2",
+      "description": "JSR305 Annotations for Findbugs",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@2.0.2?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://findbugs.googlecode.com/svn/trunk/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@2.0.2?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common",
+      "version": "2.3.1",
+      "description": "Android Lifecycle-Common",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-common@2.3.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-common@2.3.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "1.0",
+      "description": "\n    Contains Guava's com.google.common.util.concurrent.ListenableFuture class,\n    without any of its other classes -- but is also available in a second\n    \"version\" that omits the class to avoid conflicts with the copy in Guava\n    itself. The idea is:\n\n    - If users want only ListenableFuture, they depend on listenablefuture-1.0.\n\n    - If users want all of Guava, they depend on guava, which, as of Guava\n    27.0, depends on\n    listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-...\n    version number is enough for some build systems (notably, Gradle) to select\n    that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a\n    conflict with the copy of ListenableFuture in guava itself. If users are\n    using an older version of Guava or a build system other than Gradle, they\n    may see class conflicts. If so, they can solve them by manually excluding\n    the listenablefuture artifact or manually forcing their build systems to\n    use 9999.0-....\n  ",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:maven/com.google.guava/listenablefuture@1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "1.7.10",
+      "description": "Kotlin Standard Library for JVM",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.7.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.7.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "1.7.10",
+      "description": "Kotlin Common Standard Library",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.7.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.7.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "13.0",
+      "description": "A set of annotations used for code inspection support and code documentation.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/intellij-community"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures",
+      "version": "1.1.0",
+      "description": "Androidx implementation of Guava's ListenableFuture",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.concurrent/concurrent-futures@1.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.concurrent/concurrent-futures@1.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.test",
+      "name": "runner",
+      "version": "1.5.2",
+      "description": "The AndroidX Test Library provides an extensive framework for testing Android apps",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.test/runner@1.5.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.test/runner@1.5.2?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.test.espresso",
+      "name": "espresso-idling-resource",
+      "version": "3.5.1",
+      "description": "The AndroidX Test Library provides an extensive framework for testing Android apps",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.test.espresso/espresso-idling-resource@3.5.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.test.espresso/espresso-idling-resource@3.5.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "Square, Inc.",
+      "group": "com.squareup",
+      "name": "javawriter",
+      "version": "2.1.1",
+      "description": "A utility class which aids in generating Java source files.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup/javawriter@2.1.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://github.com/square/javawriter/"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup/javawriter@2.1.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "description": "The javax.inject API",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://code.google.com/p/atinject/source/checkout"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.hamcrest",
+      "name": "hamcrest-library",
+      "version": "1.3",
+      "description": "\r\n    Hamcrest library of matcher implementations.\r\n  ",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.hamcrest",
+      "name": "hamcrest-integration",
+      "version": "1.3",
+      "description": "\r\n    Provides integration between Hamcrest and other testing tools, including JUnit (3 and 4), TestNG, jMock and EasyMock.\r\n  ",
+      "scope": "optional",
+      "licenses": [],
+      "purl": "pkg:maven/org.hamcrest/hamcrest-integration@1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.hamcrest/hamcrest-integration@1.3?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "androidTestImplementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk8",
+      "version": "1.8.10",
+      "description": "Kotlin Standard Library JDK 8 extension",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "api"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib",
+      "version": "1.8.10",
+      "description": "Kotlin Standard Library for JVM",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "api"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-common",
+      "version": "1.8.10",
+      "description": "Kotlin Common Standard Library",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.8.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.8.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "api"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-stdlib-jdk7",
+      "version": "1.8.10",
+      "description": "Kotlin Standard Library JDK 7 extension",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "api"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.annotation",
+      "name": "annotation",
+      "version": "1.3.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.annotation",
+      "name": "annotation-experimental",
+      "version": "1.3.0",
+      "description": "Java annotation for use on unstable Android API surfaces. When used in conjunction with the Experimental annotation lint checks, this annotation provides functional parity with Kotlin's Experimental annotation.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.annotation/annotation-experimental@1.3.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.annotation/annotation-experimental@1.3.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-common",
+      "version": "2.5.1",
+      "description": "Android Lifecycle-Common",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-common@2.5.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-common@2.5.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.concurrent",
+      "name": "concurrent-futures",
+      "version": "1.0.0",
+      "description": "Androidx implementation of Guava's ListenableFuture",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.concurrent/concurrent-futures@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.concurrent/concurrent-futures@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.core",
+      "name": "core-ktx",
+      "version": "1.9.0",
+      "description": "Kotlin extensions for 'core' artifact",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.core/core-ktx@1.9.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.core/core-ktx@1.9.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.core",
+      "name": "core",
+      "version": "1.9.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.core/core@1.9.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.core/core@1.9.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-runtime",
+      "version": "2.5.1",
+      "description": "Android Lifecycle Runtime",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.5.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.5.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.arch.core",
+      "name": "core-common",
+      "version": "2.1.0",
+      "description": "Android Arch-Common",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.versionedparcelable",
+      "name": "versionedparcelable",
+      "version": "1.1.1",
+      "description": "Provides a stable but relatively compact binary serialization format that can be passed across processes or persisted safely.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.collection",
+      "name": "collection",
+      "version": "1.1.0",
+      "description": "Standalone efficient collections.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.appcompat",
+      "name": "appcompat",
+      "version": "1.6.1",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.appcompat/appcompat@1.6.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.appcompat/appcompat@1.6.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.activity",
+      "name": "activity",
+      "version": "1.6.0",
+      "description": "Provides the base Activity subclass and the relevant hooks to build a composable structure on top.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.activity/activity@1.6.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.activity/activity@1.6.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel",
+      "version": "2.5.1",
+      "description": "Android Lifecycle ViewModel",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.5.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.5.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-viewmodel-savedstate",
+      "version": "2.5.1",
+      "description": "Android Lifecycle ViewModel",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.5.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.5.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata-core",
+      "version": "2.5.1",
+      "description": "Android Lifecycle LiveData Core",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.5.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.5.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.savedstate",
+      "name": "savedstate",
+      "version": "1.2.0",
+      "description": "Android Lifecycle Saved State",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.savedstate/savedstate@1.2.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.savedstate/savedstate@1.2.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-android",
+      "version": "1.6.1",
+      "description": "Coroutines support libraries for Kotlin",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.6.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Kotlin/kotlinx.coroutines"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.6.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core",
+      "version": "1.6.1",
+      "description": "Coroutines support libraries for Kotlin",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.6.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Kotlin/kotlinx.coroutines"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.6.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-core-jvm",
+      "version": "1.6.1",
+      "description": "Coroutines support libraries for Kotlin",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Kotlin/kotlinx.coroutines"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlinx",
+      "name": "kotlinx-coroutines-bom",
+      "version": "1.6.1",
+      "description": "Coroutines support libraries for Kotlin",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.6.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Kotlin/kotlinx.coroutines"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.6.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.appcompat",
+      "name": "appcompat-resources",
+      "version": "1.6.1",
+      "description": "The Resources Library is a static library that you can add to your Android application in order to use resource APIs that backport the latest APIs to older versions of the platform. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.appcompat/appcompat-resources@1.6.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.appcompat/appcompat-resources@1.6.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.vectordrawable",
+      "name": "vectordrawable",
+      "version": "1.1.0",
+      "description": "Android Support VectorDrawable",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.vectordrawable/vectordrawable@1.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.vectordrawable/vectordrawable@1.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.vectordrawable",
+      "name": "vectordrawable-animated",
+      "version": "1.1.0",
+      "description": "Android Support AnimatedVectorDrawable",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.vectordrawable/vectordrawable-animated@1.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.vectordrawable/vectordrawable-animated@1.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.interpolator",
+      "name": "interpolator",
+      "version": "1.0.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.interpolator/interpolator@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.interpolator/interpolator@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.cursoradapter",
+      "name": "cursoradapter",
+      "version": "1.0.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.cursoradapter/cursoradapter@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.cursoradapter/cursoradapter@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.drawerlayout",
+      "name": "drawerlayout",
+      "version": "1.1.1",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.drawerlayout/drawerlayout@1.1.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.drawerlayout/drawerlayout@1.1.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.customview",
+      "name": "customview",
+      "version": "1.1.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.customview/customview@1.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.customview/customview@1.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.fragment",
+      "name": "fragment",
+      "version": "1.3.6",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.fragment/fragment@1.3.6?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.fragment/fragment@1.3.6?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.viewpager",
+      "name": "viewpager",
+      "version": "1.0.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.viewpager/viewpager@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.viewpager/viewpager@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.loader",
+      "name": "loader",
+      "version": "1.0.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.loader/loader@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.loader/loader@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-livedata",
+      "version": "2.0.0",
+      "description": "Android Lifecycle LiveData",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.arch.core",
+      "name": "core-runtime",
+      "version": "2.0.0",
+      "description": "Android Arch-Runtime",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.arch.core/core-runtime@2.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.arch.core/core-runtime@2.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.google.android.material",
+      "name": "material",
+      "version": "1.9.0",
+      "description": "Material Components for Android is a static library that you can add to your Android application in order to use APIs that provide implementations of the Material Design specification. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.android.material/material@1.9.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/material-components/material-components-android"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.android.material/material@1.9.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.cardview",
+      "name": "cardview",
+      "version": "1.0.0",
+      "description": "Android Support CardView v7",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.cardview/cardview@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.cardview/cardview@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.coordinatorlayout",
+      "name": "coordinatorlayout",
+      "version": "1.1.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.coordinatorlayout/coordinatorlayout@1.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.coordinatorlayout/coordinatorlayout@1.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.constraintlayout",
+      "name": "constraintlayout",
+      "version": "2.0.1",
+      "description": "ConstraintLayout for Android",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.constraintlayout/constraintlayout@2.0.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://android.googlesource.com/platform/tools/sherpa"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.constraintlayout/constraintlayout@2.0.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.constraintlayout",
+      "name": "constraintlayout-solver",
+      "version": "2.0.1",
+      "description": "Solver for ConstraintLayout",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.constraintlayout/constraintlayout-solver@2.0.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://android.googlesource.com/platform/tools/sherpa"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.constraintlayout/constraintlayout-solver@2.0.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.dynamicanimation",
+      "name": "dynamicanimation",
+      "version": "1.0.0",
+      "description": "Physics-based animation in support library, where the animations are driven by physics force. You can use this Animation library to create smooth and realistic animations.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.dynamicanimation/dynamicanimation@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.dynamicanimation/dynamicanimation@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.legacy",
+      "name": "legacy-support-core-utils",
+      "version": "1.0.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.legacy/legacy-support-core-utils@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.legacy/legacy-support-core-utils@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.documentfile",
+      "name": "documentfile",
+      "version": "1.0.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.documentfile/documentfile@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.documentfile/documentfile@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.localbroadcastmanager",
+      "name": "localbroadcastmanager",
+      "version": "1.0.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.localbroadcastmanager/localbroadcastmanager@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.localbroadcastmanager/localbroadcastmanager@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.print",
+      "name": "print",
+      "version": "1.0.0",
+      "description": "The Support Library is a static library that you can add to your Android application in order to use APIs that are either not available for older platform versions or utility APIs that aren't a part of the framework APIs. Compatible on devices running API 14 or later.",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.print/print@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.print/print@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.recyclerview",
+      "name": "recyclerview",
+      "version": "1.1.0",
+      "description": "Android Support RecyclerView v7",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.recyclerview/recyclerview@1.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.recyclerview/recyclerview@1.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.transition",
+      "name": "transition",
+      "version": "1.2.0",
+      "description": "Android Transition Support Library",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.transition/transition@1.2.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.transition/transition@1.2.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.viewpager2",
+      "name": "viewpager2",
+      "version": "1.0.0",
+      "description": "AndroidX Widget ViewPager2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.viewpager2/viewpager2@1.0.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.viewpager2/viewpager2@1.0.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugAndroidTestCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.arch.core",
+      "name": "core-runtime",
+      "version": "2.1.0",
+      "description": "Android Arch-Runtime",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.arch.core/core-runtime@2.1.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "http://source.android.com"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.arch.core/core-runtime@2.1.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugCompileClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.emoji2",
+      "name": "emoji2",
+      "version": "1.2.0",
+      "description": "Core library to enable emoji compatibility in Kitkat and newer devices to avoid the empty emoji characters.",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.emoji2/emoji2@1.2.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.emoji2/emoji2@1.2.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugRuntimeClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.lifecycle",
+      "name": "lifecycle-process",
+      "version": "2.4.1",
+      "description": "Android Lifecycle Process",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.lifecycle/lifecycle-process@2.4.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.lifecycle/lifecycle-process@2.4.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugRuntimeClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.startup",
+      "name": "startup-runtime",
+      "version": "1.1.1",
+      "description": "Android App Startup Runtime",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.startup/startup-runtime@1.1.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.startup/startup-runtime@1.1.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugRuntimeClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.emoji2",
+      "name": "emoji2-views-helper",
+      "version": "1.2.0",
+      "description": "View helpers for Emoji2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.emoji2/emoji2-views-helper@1.2.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.emoji2/emoji2-views-helper@1.2.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugRuntimeClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "androidx.resourceinspection",
+      "name": "resourceinspection-annotation",
+      "version": "1.0.1",
+      "description": "Annotation processors for Android resource and layout inspection",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/androidx.resourceinspection/resourceinspection-annotation@1.0.1?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://cs.android.com/androidx/platform/frameworks/support"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/androidx.resourceinspection/resourceinspection-annotation@1.0.1?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugRuntimeClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.15.0",
+      "description": "",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.15.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.15.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "debugRuntimeClasspath"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlinx",
+      "name": "atomicfu",
+      "version": "0.17.0",
+      "description": "AtomicFU utilities",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlinx/atomicfu@0.17.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/Kotlin/kotlinx.atomicfu"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlinx/atomicfu@0.17.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "implementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-compiler-embeddable",
+      "version": "1.8.10",
+      "description": "Kotlin Compiler (embeddable)",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@1.8.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@1.8.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "implementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-script-runtime",
+      "version": "1.8.10",
+      "description": "Kotlin Script Runtime",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.8.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.8.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "implementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-reflect",
+      "version": "1.6.10",
+      "description": "Kotlin Full Reflection Library",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "implementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-daemon-embeddable",
+      "version": "1.8.10",
+      "description": "Kotlin Daemon (for using with embeddable compiler)",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@1.8.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@1.8.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "implementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.intellij.deps",
+      "name": "trove4j",
+      "version": "1.0.20200330",
+      "description": "Fork of trove4j library used in IntelliJ Platform.",
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU LESSER GENERAL PUBLIC LICENSE 2.1"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/intellij-deps-trove4j"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "implementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "net.java.dev.jna",
+      "name": "jna",
+      "version": "5.6.0",
+      "description": "Java Native Access",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL, version 2.1"
+          }
+        },
+        {
+          "license": {
+            "name": "Apache License v2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.java.dev.jna/jna@5.6.0?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/java-native-access/jna"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/net.java.dev.jna/jna@5.6.0?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "implementation"
+        }
+      ]
+    },
+    {
+      "author": "",
+      "publisher": "",
+      "group": "org.jetbrains.kotlin",
+      "name": "kotlin-klib-commonizer-embeddable",
+      "version": "1.8.10",
+      "description": "Kotlin KLIB Library Commonizer (for using with embeddable compiler)",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://opensource.org/licenses/Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@1.8.10?type=jar",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/JetBrains/kotlin"
+        }
+      ],
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@1.8.10?type=jar",
+      "properties": [
+        {
+          "name": "GradleProfileName",
+          "value": "kotlinCompilerPluginClasspathReleaseUnitTest"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/CdxgenAndroidTest@latest?type=jar",
+      "dependsOn": [
+        "pkg:maven/CdxgenAndroidTest/data@latest?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/CdxgenAndroidTest/data@latest?type=jar",
+      "dependsOn": [
+        "pkg:maven/CdxgenAndroidTest/data (*)@latest?type=jar",
+        "pkg:maven/androidx.test.ext/junit@1.1.5?type=jar",
+        "pkg:maven/androidx.test.espresso/espresso-core@3.5.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.10?type=jar",
+        "pkg:maven/androidx.core/core-ktx@1.9.0?type=jar",
+        "pkg:maven/androidx.appcompat/appcompat@1.6.1?type=jar",
+        "pkg:maven/com.google.android.material/material@1.9.0?type=jar",
+        "pkg:maven/junit/junit@4.13.2?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.test.ext/junit@1.1.5?type=jar",
+      "dependsOn": [
+        "pkg:maven/junit/junit@4.13.2?type=jar",
+        "pkg:maven/androidx.test/core@1.5.0?type=jar",
+        "pkg:maven/androidx.test/monitor@1.6.1?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.test.espresso/espresso-core@3.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+        "pkg:maven/androidx.test/core@1.5.0?type=jar",
+        "pkg:maven/androidx.test/runner@1.5.2?type=jar",
+        "pkg:maven/androidx.test.espresso/espresso-idling-resource@3.5.1?type=jar",
+        "pkg:maven/com.squareup/javawriter@2.1.1?type=jar",
+        "pkg:maven/javax.inject/javax.inject@1?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar",
+        "pkg:maven/org.hamcrest/hamcrest-integration@1.3?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@2.0.2?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.7.10?type=jar",
+        "pkg:maven/androidx.test/annotation@1.0.1?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/junit/junit@4.13.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/androidx.test/core@1.5.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+        "pkg:maven/androidx.test/monitor@1.6.1?type=jar",
+        "pkg:maven/androidx.test.services/storage@1.4.2?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-common@2.3.1?type=jar",
+        "pkg:maven/androidx.tracing/tracing@1.0.0?type=jar",
+        "pkg:maven/com.google.guava/listenablefuture@1.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.7.10?type=jar",
+        "pkg:maven/androidx.concurrent/concurrent-futures@1.1.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-common@2.5.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+        "pkg:maven/androidx.concurrent/concurrent-futures@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/androidx.test/monitor@1.6.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+        "pkg:maven/androidx.test/annotation@1.0.1?type=jar",
+        "pkg:maven/androidx.tracing/tracing@1.0.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.test/annotation@1.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation-experimental@1.1.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation-experimental@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.annotation/annotation-experimental@1.1.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/androidx.tracing/tracing@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.test.services/storage@1.4.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+        "pkg:maven/androidx.test/monitor@1.6.1?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@2.0.2?type=jar",
+        "pkg:maven/androidx.test/annotation@1.0.1?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@2.0.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/androidx.lifecycle/lifecycle-common@2.3.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@1.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.7.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.7.10?type=jar",
+        "pkg:maven/org.jetbrains/annotations@13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.7.10?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains/annotations@13.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/androidx.concurrent/concurrent-futures@1.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+        "pkg:maven/com.google.guava/listenablefuture@1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.test/runner@1.5.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.2.0?type=jar",
+        "pkg:maven/androidx.test/annotation@1.0.1?type=jar",
+        "pkg:maven/androidx.test/monitor@1.6.1?type=jar",
+        "pkg:maven/androidx.test.services/storage@1.4.2?type=jar",
+        "pkg:maven/androidx.tracing/tracing@1.0.0?type=jar",
+        "pkg:maven/junit/junit@4.13.2?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.test.espresso/espresso-idling-resource@3.5.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.squareup/javawriter@2.1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.hamcrest/hamcrest-integration@1.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains/annotations@13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.8.10?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk7@1.8.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/androidx.annotation/annotation-experimental@1.3.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.lifecycle/lifecycle-common@2.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.concurrent/concurrent-futures@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.guava/listenablefuture@1.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.core/core-ktx@1.9.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.core/core@1.9.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation-experimental@1.3.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.5.1?type=jar",
+        "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.1?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+        "pkg:maven/androidx.concurrent/concurrent-futures@1.0.0?type=jar",
+        "pkg:maven/androidx.core/core-ktx@1.9.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-common@2.5.1?type=jar",
+        "pkg:maven/androidx.arch.core/core-runtime@2.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.versionedparcelable/versionedparcelable@1.1.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.appcompat/appcompat@1.6.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.activity/activity@1.6.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.appcompat/appcompat-resources@1.6.1?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.cursoradapter/cursoradapter@1.0.0?type=jar",
+        "pkg:maven/androidx.drawerlayout/drawerlayout@1.1.1?type=jar",
+        "pkg:maven/androidx.fragment/fragment@1.3.6?type=jar",
+        "pkg:maven/androidx.savedstate/savedstate@1.2.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+        "pkg:maven/androidx.core/core-ktx@1.9.0?type=jar",
+        "pkg:maven/androidx.emoji2/emoji2@1.2.0?type=jar",
+        "pkg:maven/androidx.emoji2/emoji2-views-helper@1.2.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.5.1?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.5.1?type=jar",
+        "pkg:maven/androidx.resourceinspection/resourceinspection-annotation@1.0.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.activity/activity@1.6.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.5.1?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.5.1?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.5.1?type=jar",
+        "pkg:maven/androidx.savedstate/savedstate@1.2.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+        "pkg:maven/androidx.tracing/tracing@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.5.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core-ktx@1.9.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.5.1?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.5.1?type=jar",
+        "pkg:maven/androidx.savedstate/savedstate@1.2.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.5.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.lifecycle/lifecycle-common@2.5.1?type=jar",
+        "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar",
+        "pkg:maven/androidx.arch.core/core-runtime@2.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.savedstate/savedstate@1.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+        "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-common@2.5.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.6.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.6.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.6.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.6.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlinx/atomicfu@0.17.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.6.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-jdk8@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-bom@1.6.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-android@1.6.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core@1.6.1?type=jar",
+        "pkg:maven/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.appcompat/appcompat-resources@1.6.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.vectordrawable/vectordrawable@1.1.0?type=jar",
+        "pkg:maven/androidx.vectordrawable/vectordrawable-animated@1.1.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+        "pkg:maven/androidx.appcompat/appcompat@1.6.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.vectordrawable/vectordrawable@1.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.vectordrawable/vectordrawable-animated@1.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.vectordrawable/vectordrawable@1.1.0?type=jar",
+        "pkg:maven/androidx.interpolator/interpolator@1.0.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.interpolator/interpolator@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.cursoradapter/cursoradapter@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.drawerlayout/drawerlayout@1.1.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.customview/customview@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.customview/customview@1.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.fragment/fragment@1.3.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+        "pkg:maven/androidx.viewpager/viewpager@1.0.0?type=jar",
+        "pkg:maven/androidx.loader/loader@1.0.0?type=jar",
+        "pkg:maven/androidx.activity/activity@1.6.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.5.1?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.5.1?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-viewmodel-savedstate@2.5.1?type=jar",
+        "pkg:maven/androidx.savedstate/savedstate@1.2.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation-experimental@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.viewpager/viewpager@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.customview/customview@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.loader/loader@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.0.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-viewmodel@2.5.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.lifecycle/lifecycle-livedata@2.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.arch.core/core-runtime@2.0.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-livedata-core@2.5.1?type=jar",
+        "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar",
+        "pkg:maven/androidx.arch.core/core-runtime@2.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.arch.core/core-runtime@2.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.android.material/material@1.9.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.appcompat/appcompat@1.6.1?type=jar",
+        "pkg:maven/androidx.cardview/cardview@1.0.0?type=jar",
+        "pkg:maven/androidx.coordinatorlayout/coordinatorlayout@1.1.0?type=jar",
+        "pkg:maven/androidx.constraintlayout/constraintlayout@2.0.1?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.drawerlayout/drawerlayout@1.1.1?type=jar",
+        "pkg:maven/androidx.dynamicanimation/dynamicanimation@1.0.0?type=jar",
+        "pkg:maven/androidx.annotation/annotation-experimental@1.3.0?type=jar",
+        "pkg:maven/androidx.fragment/fragment@1.3.6?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.5.1?type=jar",
+        "pkg:maven/androidx.recyclerview/recyclerview@1.1.0?type=jar",
+        "pkg:maven/androidx.transition/transition@1.2.0?type=jar",
+        "pkg:maven/androidx.vectordrawable/vectordrawable@1.1.0?type=jar",
+        "pkg:maven/androidx.viewpager2/viewpager2@1.0.0?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.15.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.cardview/cardview@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.coordinatorlayout/coordinatorlayout@1.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.customview/customview@1.1.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.constraintlayout/constraintlayout@2.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.appcompat/appcompat@1.6.1?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.constraintlayout/constraintlayout-solver@2.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.constraintlayout/constraintlayout-solver@2.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/androidx.dynamicanimation/dynamicanimation@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+        "pkg:maven/androidx.legacy/legacy-support-core-utils@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.legacy/legacy-support-core-utils@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.documentfile/documentfile@1.0.0?type=jar",
+        "pkg:maven/androidx.loader/loader@1.0.0?type=jar",
+        "pkg:maven/androidx.localbroadcastmanager/localbroadcastmanager@1.0.0?type=jar",
+        "pkg:maven/androidx.print/print@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.documentfile/documentfile@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.localbroadcastmanager/localbroadcastmanager@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.print/print@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.recyclerview/recyclerview@1.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.customview/customview@1.1.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.transition/transition@1.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.viewpager2/viewpager2@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.fragment/fragment@1.3.6?type=jar",
+        "pkg:maven/androidx.recyclerview/recyclerview@1.1.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.arch.core/core-runtime@2.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.arch.core/core-common@2.1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.emoji2/emoji2@1.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.lifecycle/lifecycle-process@2.4.1?type=jar",
+        "pkg:maven/androidx.startup/startup-runtime@1.1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.lifecycle/lifecycle-process@2.4.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.lifecycle/lifecycle-runtime@2.5.1?type=jar",
+        "pkg:maven/androidx.startup/startup-runtime@1.1.1?type=jar",
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.startup/startup-runtime@1.1.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar",
+        "pkg:maven/androidx.tracing/tracing@1.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.emoji2/emoji2-views-helper@1.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.collection/collection@1.1.0?type=jar",
+        "pkg:maven/androidx.core/core@1.9.0?type=jar",
+        "pkg:maven/androidx.emoji2/emoji2@1.2.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/androidx.resourceinspection/resourceinspection-annotation@1.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/androidx.annotation/annotation@1.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.15.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlinx/atomicfu@0.17.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib-common@1.8.10?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@1.8.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330?type=jar",
+        "pkg:maven/net.java.dev.jna/jna@5.6.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-script-runtime@1.8.10?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-reflect@1.6.10?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-daemon-embeddable@1.8.10?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.intellij.deps/trove4j@1.0.20200330?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/net.java.dev.jna/jna@5.6.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jetbrains.kotlin/kotlin-klib-commonizer-embeddable@1.8.10?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@1.8.10?type=jar",
+        "pkg:maven/org.jetbrains.kotlin/kotlin-compiler-embeddable@1.8.10?type=jar"
+      ]
+    }
+  ]
+}
